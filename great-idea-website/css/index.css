@@ -23,20 +23,33 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+
+.navigation {
+	
+	display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+	align-items: center;
+}
 .navigation a{
-	display: inline-block;
+
 	margin: 50px;
   text-decoration: none;
   color: gray;
 }
 
 .logo {
-	margin-left: 50px;
-	margin-top: 20px;
+	/*margin-left: 50px;
+	margin-top: 20px;*/
 }
 
 .title {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+	align-items: center;
+
+	/*display: inline-block;
 	position: relative;
 	left: 200px;
 	bottom: 50px;
@@ -45,7 +58,7 @@ h1, h2, h3, h4, h5 {
 	padding: 20px;
 	margin-bottom: 50px;
 	text-align: center;
-	font-size: 90px;
+	font-size: 90px;*/
 }
 
 button {
