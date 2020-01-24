@@ -25,11 +25,9 @@ h1, h2, h3, h4, h5 {
 
 
 .navigation {
-	
-	display: flex;
-	justify-content: center;
-	flex-flow: row nowrap;
-	align-items: center;
+	/*height: 30px;
+	position: fixed;
+	margin: 30px;*/
 }
 .navigation a{
 
@@ -44,12 +42,9 @@ h1, h2, h3, h4, h5 {
 }
 
 .title {
-	display: flex;
-	justify-content: center;
-	flex-flow: row nowrap;
-	align-items: center;
 
-	/*display: inline-block;
+
+	display: inline-block;
 	position: relative;
 	left: 200px;
 	bottom: 50px;
@@ -58,7 +53,7 @@ h1, h2, h3, h4, h5 {
 	padding: 20px;
 	margin-bottom: 50px;
 	text-align: center;
-	font-size: 90px;*/
+	font-size: 90px;
 }
 
 button {
@@ -80,9 +75,17 @@ button {
 }
 
 .top {
-	width: 49%;
+	width: 32%;
 	display: inline-block;
-	margin: 5px;
+	margin-right: 200px;
+}
+
+.features {
+
+}
+
+.about {
+	
 }
 
 .bottom {
